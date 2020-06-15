@@ -1903,7 +1903,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #6e817a;
+  background: #96ff0e;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3212,4 +3212,28 @@ img:hover {
 .posts-expand .post-eof {
   margin: 0px;
   background-color: rgba(255,255,255,0);
+}
+@media screen {
+  body {
+    background-image: url("/images/2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+  }
+  #footer a {
+    color: #eee;
+  }
+}
+.content-wrap {
+  opacity: 0.83;
+}
+.sidebar {
+  opacity: 0.83;
+}
+.header-inner {
+  background: rgba(255,255,255,0.9);
+}
+.popup {
+  opacity: 0.83;
 }
